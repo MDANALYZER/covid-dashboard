@@ -1,0 +1,19 @@
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+div.stButton > button:first-child{
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2rem;
+  transition: 0.5ms;
+  border: solid red;
+}
+div.stButton > button:first-child:hover {
+    background-color: black;  
+    color: white;   
+}
+
